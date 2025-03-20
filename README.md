@@ -1,6 +1,20 @@
 # Project2_Crowdfunding_ETL
 
-# Created the Contacts DataFrame using regular expressions
+### Created the Category and Subcategory DataFrames
+---
+**Created a Category DataFrame that has the following columns:**
+- A "category_id" column that is numbered sequential form 1 to the length of the number of unique categories.
+- A "category" column that has only the categories.
+
+Exported the DataFrame as a `category.csv` CSV file.
+
+**Created a SubCategory DataFrame that has the following columns:**
+- A "subcategory_id" column that is numbered sequential form 1 to the length of the number of unique subcategories.
+- A "subcategory" column that has only the subcategories. 
+
+Exported the DataFrame as a `subcategory.csv` CSV file.
+
+### Created the Contacts DataFrame using regular expressions
 Extracting and transforming the data from the contacts.xlsx:  
 
 - Imported the contacts.xlsx file into a DataFrame.  
