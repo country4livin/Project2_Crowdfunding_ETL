@@ -1,6 +1,6 @@
 # Project2_Crowdfunding_ETL
 
-### Created the Category and Subcategory DataFrames
+## 1. Created the Category and Subcategory DataFrames
 ---
 **Created a Category DataFrame that has the following columns:**
 - A "category_id" column that is numbered sequential form 1 to the length of the number of unique categories.
@@ -14,7 +14,28 @@ Exported the DataFrame as a `category.csv` CSV file.
 
 Exported the DataFrame as a `subcategory.csv` CSV file.
 
-### Created the Contacts DataFrame using regular expressions
+## 2. Created the Campaign DataFrame
+----
+**Created a Campaign DataFrame that has the following columns:**
+- The "cf_id" column.
+- The "contact_id" column.
+- The “company_name” column.
+- The "blurb" column is renamed as "description."
+- The "goal" column.
+- The "goal" column is converted to a `float` datatype.
+- The "pledged" column is converted to a `float` datatype. 
+- The "backers_count" column. 
+- The "country" column.
+- The "currency" column.
+- The "launched_at" column is renamed as "launch_date" and converted to a datetime format. 
+- The "deadline" column is renamed as "end_date" and converted to a datetime format.
+- The "category_id" with the unique number matching the “category_id” from the category DataFrame. 
+- The "subcategory_id" with the unique number matching the “subcategory_id” from the subcategory DataFrame.
+- And, create a column that contains the unique four-digit contact ID number from the `contact.xlsx` file.
+
+Exported the DataFrame as a `campaign.csv` CSV file.
+
+##3. Created the Contacts DataFrame using regular expressions
 ---
 Extracting and transforming the data from the contacts.xlsx:  
 
