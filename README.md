@@ -3,15 +3,19 @@ This project is brought to by: Janice Guallpa, Jennifer Robison, Kelley Blue, Ni
 
 ## 1. Created the Category and Subcategory DataFrames
 ---
-**Created a Category DataFrame that has the following columns:**
 Created by Nicolette
+
+**Created a Category DataFrame that has the following columns:**
+
 - A "category_id" column that is numbered sequential form 1 to the length of the number of unique categories.
 - A "category" column that has only the categories.
 
 Exported the DataFrame as a `category.csv` CSV file.
 
 **Created a SubCategory DataFrame that has the following columns:**
+---
 Created by Deborah
+
 - A "subcategory_id" column that is numbered sequential form 1 to the length of the number of unique subcategories.
 - A "subcategory" column that has only the subcategories. 
 
@@ -19,8 +23,10 @@ Exported the DataFrame as a `subcategory.csv` CSV file.
 
 ## 2. Created the Campaign DataFrame
 ----
-**Created a Campaign DataFrame that has the following columns:**
 Created by Kelley
+
+**Created a Campaign DataFrame that has the following columns:**
+
 - The "cf_id" column.
 - The "contact_id" column.
 - The “company_name” column.
@@ -40,8 +46,9 @@ Created by Kelley
 Exported the DataFrame as a `campaign.csv` CSV file.
 
 ## 3. Created the Contacts DataFrame using regular expressions
-Created by Janice
 ---
+Created by Janice
+
 Extracting and transforming the data from the contacts.xlsx:  
 
 - Imported the contacts.xlsx file into a DataFrame.  
@@ -52,6 +59,7 @@ Extracting and transforming the data from the contacts.xlsx:
 - Cleaned and exported the DataFrame as contact.csv and saved it into Resource folder within repository.
 
 ## 4. Created the Crowdfunding Database in Postgres
+---
 Created by Jennifer
 
 
