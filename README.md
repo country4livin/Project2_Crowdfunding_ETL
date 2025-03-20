@@ -15,6 +15,7 @@ Exported the DataFrame as a `category.csv` CSV file.
 Exported the DataFrame as a `subcategory.csv` CSV file.
 
 ### Created the Contacts DataFrame using regular expressions
+---
 Extracting and transforming the data from the contacts.xlsx:  
 
 - Imported the contacts.xlsx file into a DataFrame.  
