@@ -1,9 +1,9 @@
 
 -- Drop tables if they already exist
-DROP TABLE contacts;
-DROP TABLE category;
-DROP TABLE subcategory;
-DROP TABLE campaign;
+DROP TABLE IF EXISTS contacts;
+DROP TABLE IF EXISTS category;
+DROP TABLE IF EXISTS subcategory;
+DROP TABLE IF EXISTS campaign;
 
 -- Create the Tables
 -- Import tables in the following order: 
@@ -25,8 +25,6 @@ CREATE TABLE subcategory (
 	subcategory VARCHAR(30)
 );
 
--- Drop table if it exists
-DROP TABLE campaign;
 CREATE TABLE campaign (
 	cf_id INT PRIMARY KEY,
 	contact_id INT REFERENCES contacts(contact_id),
@@ -38,8 +36,8 @@ CREATE TABLE campaign (
 	backers_count INT,
 	country VARCHAR(30),
 	currency VARCHAR(10),
-	launched_date TIMESTAMP,
-	end_date TIMESTAMP,
+	launched_date DATE,
+	end_date DATE,
 	category_id VARCHAR(10) REFERENCES category(category_id),
 	subcategory_id VARCHAR(10) REFERENCES subcategory(subcategory_id)
 );
