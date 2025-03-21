@@ -62,6 +62,11 @@ Extracting and transforming the data from the contacts.xlsx:
 ---
 Created by Jennifer
 
+ - Created an ERD using QuickDBD. The file is saved as a .png in the repo and is shown below.
+ - Created a Schema using PGAdmin4 that creates the tables and runs a Select * on all tables. 
+ - Load the .csv files from the Resources folder in the following order: contacts, category, subcategory, campaign
+ - ![alt text](image.png)
+
 
 
 
