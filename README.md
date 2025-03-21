@@ -1,5 +1,5 @@
 # Project2_Crowdfunding_ETL
-This project is brought to by: Janice Guallpa, Jennifer Robison, Kelley Blue, Nicolette Sorensen, and Deborah Kisch.
+This project is brought to you by: Janice Guallpa, Jennifer Robison, Kelley Blue, Nicolette Sorensen, and Deborah Kisch.
 
 ## 1. Created the Category and Subcategory DataFrames
 ---
